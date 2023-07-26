@@ -1,0 +1,67 @@
+body{
+	background-image: url('bg.jpg');
+}
+
+p {
+	font-size : 25px;
+	font-weight : 700;
+	color : #85929E;
+	font-family:Roboto, Impact, fantasy;
+}	
+
+#container {
+	text-align : center;
+	Height : auto;
+	width : 30%;
+	border: 1px solid #85929E;
+	margin: auto;
+	border-radius: 15px;
+	
+	background-color: aqua;
+	background-color: rgba(0, 0, 0, 0.10);
+	padding :	20px;
+}
+
+
+label{
+	color: #34495E;
+}
+
+input, textarea, select  {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #F6FCF9;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  width : 90%;
+  font-family:Roboto, Impact, fantasy;
+}
+
+input[type="submit"], select {
+  width : 95%;   
+font-family:Roboto, Impact, fantasy;  
+}
+
+input[type="submit"] {
+	margin-top : 5px;
+	background-color : #27AE60;
+	
+	Height : 50px;
+}
+
+input[type="radio"]{
+	width : 95%; 
+	font-family:Roboto, Impact, fantasy;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	vertical-align: middle;
+	border: 2px solid #f56;
+	border-radius: 50%;
+	padding: 2px;
+	margin:0 5px;	
+  	
+}
